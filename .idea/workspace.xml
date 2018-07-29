@@ -2,14 +2,733 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="pixel_2_xl" />
+          <device id="Nexus 9" />
+          <device id="Nexus 5" />
+        </devices>
+      </config>
     </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acdff6e4-c5c1-40cf-b68c-9b1e5841859a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_24_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_24_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_24_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/generated/source/r/debug/android/support/graphics/drawable/R.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/generated/source/r/debug/android/support/graphics/drawable/animated/R.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-af.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-am.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ar.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-az-rAZ.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-be-rBY.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-bg.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-bn-rBD.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-bs-rBA.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ca.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-cs.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-da.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-de.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-el.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-es.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-et-rEE.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-eu-rES.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-fa.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-fi.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-fr.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-gl-rES.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-gu-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-hi.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-hr.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-hu.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-hy-rAM.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-in.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-is-rIS.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-it.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-iw.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ja.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ka-rGE.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-kk-rKZ.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-km-rKH.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-kn-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ko.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ky-rKG.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-land.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-lo-rLA.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-lt.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-lv.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-mk-rMK.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ml-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-mn-rMN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-mr-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ms-rMY.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-my-rMM.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-nb.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ne-rNP.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-nl.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-pa-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-pl.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-port.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-pt.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ro.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ru.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-si-rLK.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-sk.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-sl.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-sq-rAL.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-sr.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-sv.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-sw.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ta-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-te-rIN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-th.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-tl.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-tr.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-uk.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-ur-rPK.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-uz-rUZ.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v12.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v13.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v17.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v18.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v21.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v22.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v23.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-vi.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-zu.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/graphics/drawable/R.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/graphics/drawable/animated/R.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/ActivityCollector.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/BaseActivity$ForceOfflineReceiver$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/BaseActivity$ForceOfflineReceiver.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/BaseActivity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$anim.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$attr.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$bool.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$dimen.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$integer.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$styleable.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IE+RgZhLEGHoc5Eb19Kb+xcdT8Y=" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/L4raykXA5hMlqmj3HBBXmYjxiAg=" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fb9g1X4lpC_Jq44R2ICYjofSFDI=" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/IE+RgZhLEGHoc5Eb19Kb+xcdT8Y=" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/L4raykXA5hMlqmj3HBBXmYjxiAg=" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/fb9g1X4lpC_Jq44R2ICYjofSFDI=" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v11_abc_background_cache_hint_selector_material_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_borderless_text_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_tint_default.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_thumb.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_track.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_btn_colored_borderless_text_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_secondary_text_material_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_tint_btn_checkable.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_tint_spinner.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_tint_switch_thumb.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-v23_abc_control_background_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_btn_colored_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_menu_overflow_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_voice_search_api_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_light.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ratingbar_indicator_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ratingbar_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/drawable_abc_vector_test.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_action_bar_view_list_nav_layout.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_popup_menu_header_item_layout.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_activity_login.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_template_lines.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-az-rAZ_values-az-rAZ.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-be-rBY_values-be-rBY.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-bn-rBD_values-bn-rBD.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-bs-rBA_values-bs-rBA.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-et-rEE_values-et-rEE.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-eu-rES_values-eu-rES.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-gl-rES_values-gl-rES.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-gu-rIN_values-gu-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-hy-rAM_values-hy-rAM.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-is-rIS_values-is-rIS.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ka-rGE_values-ka-rGE.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-kk-rKZ_values-kk-rKZ.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-km-rKH_values-km-rKH.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-kn-rIN_values-kn-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ky-rKG_values-ky-rKG.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-lo-rLA_values-lo-rLA.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-mk-rMK_values-mk-rMK.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-mn-rMN_values-mn-rMN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-mr-rIN_values-mr-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ms-rMY_values-ms-rMY.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-my-rMM_values-my-rMM.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ne-rNP_values-ne-rNP.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-pa-rIN_values-pa-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-si-rLK_values-si-rLK.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-sq-rAL_values-sq-rAL.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ta-rIN_values-ta-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-te-rIN_values-te-rIN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-ur-rPK_values-ur-rPK.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-uz-rUZ_values-uz-rUZ.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v12_values-v12.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v13_values-v13.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v18_values-v18.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v22_values-v22.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/graphics/drawable/R.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/graphics/drawable/animated/R.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$anim.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$attr.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$bool.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$color.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$dimen.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$drawable.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$id.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$integer.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$layout.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$string.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$style.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R$styleable.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/android/support/v7/appcompat/R.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/ActivityCollector.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/BaseActivity$ForceOfflineReceiver$1.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/BaseActivity$ForceOfflineReceiver.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/BaseActivity.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity$1.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity$2.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$3.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$anim.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$attr.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$bool.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$dimen.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$integer.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$styleable.dex" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/32.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/33.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/36.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/37.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/38.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/40.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/41.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/42.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/ActivityCollector.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_login.xml" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/resourceHashesCache.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/classAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/jarAnalysis.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/javaCompile.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/javaCompile/taskJars.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bZTools/bZTools.iml" afterPath="$PROJECT_DIR$/bZTools/bZTools.iml" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build.gradle" afterPath="$PROJECT_DIR$/bZTools/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/generated/source/r/debug/com/yeah/bztools/R.java" afterPath="$PROJECT_DIR$/bZTools/build/generated/source/r/debug/com/yeah/bztools/R.java" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v11.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v11.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v14.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values-v14.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/values.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/single/debug.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/MipcaActivityCapture.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/MipcaActivityCapture.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/decoding/CaptureActivityHandler.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/decoding/CaptureActivityHandler.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/decoding/DecodeHandler.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/decoding/DecodeHandler.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/view/ViewfinderView.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/mining/app/zxing/view/ViewfinderView.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$1.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$2.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$2.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$4.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$4.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$5.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$5.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$6.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$6.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$color.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$color.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$drawable.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$drawable.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$id.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$id.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$layout.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$layout.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$raw.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$raw.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$string.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$string.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$style.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R$style.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/R.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/net/NetInterface$MyGetResponseListener.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/net/NetInterface$MyGetResponseListener.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/net/NetInterface.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/net/NetInterface.class" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJavaRes/merge-state" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/debug-mergeJniLibs/merge-state" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/CXBmD+UhqYr7Qi1WNUSN9AG5BWc=" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/CXBmD+UhqYr7Qi1WNUSN9AG5BWc=" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/debug/resources-debug.ap_" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/values_values.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/symbols/debug/R.txt" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/MipcaActivityCapture.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/MipcaActivityCapture.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/decoding/CaptureActivityHandler.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/decoding/CaptureActivityHandler.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/decoding/DecodeHandler.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/decoding/DecodeHandler.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/view/ViewfinderView.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/mining/app/zxing/view/ViewfinderView.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$1.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$1.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$2.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$2.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$4.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$4.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$5.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$5.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$6.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$6.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$color.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$color.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$drawable.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$drawable.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$id.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$id.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$layout.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$layout.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$raw.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$raw.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$string.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$string.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$style.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R$style.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/R.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/net/NetInterface$MyGetResponseListener.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/net/NetInterface$MyGetResponseListener.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/net/NetInterface.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/net/NetInterface.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/outputs/apk/debug/bZTools-debug.apk" afterPath="$PROJECT_DIR$/bZTools/build/outputs/apk/debug/bZTools-debug.apk" />
+      <change beforePath="$PROJECT_DIR$/bZTools/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/bZTools/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/bZTools/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bZTools/src/main/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java" afterPath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/net/NetInterface.java" afterPath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/net/NetInterface.java" />
+      <change beforePath="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,65 +742,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="BZTools" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="323" column="5" lean-forward="true" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MipcaActivityCapture.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/mining/app/zxing/MipcaActivityCapture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="366" column="38" lean-forward="true" selection-start-line="366" selection-start-column="38" selection-end-line="366" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NetInterface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/net/NetInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2568">
-              <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1558#1559#0" expanded="true" />
-                <element signature="e#1594#1595#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/net/ResultEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_capture.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bZTools/src/main/res/layout/activity_capture.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="564">
+              <caret line="366" column="38" lean-forward="false" selection-start-line="366" selection-start-column="38" selection-end-line="366" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -93,14 +770,114 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="201" column="6" lean-forward="true" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bZTools/src/main/res/layout/activity_login.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="810">
+              <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="161" column="29" lean-forward="false" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#9256#9271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bZTools/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#767#785#0" expanded="true" />
+                <element signature="e#1261#1279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActivityCollector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/ActivityCollector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bZTools/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -3091,7 +3868,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/net/NetInterface.java" />
+        <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/ActivityCollector.java" />
+        <option value="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/bZTools/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java" />
         <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java" />
+        <option value="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/bZTools/build.gradle" />
+        <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java" />
       </list>
     </option>
   </component>
@@ -3100,7 +3884,9 @@
     <option name="width" value="1366" />
     <option name="height" value="742" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -3128,6 +3914,11 @@
             <path>
               <item name="BZTools" type="1abcf292:AndroidViewProjectNode" />
               <item name="bZTools" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="BZTools" type="1abcf292:AndroidViewProjectNode" />
+              <item name="bZTools" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
@@ -3135,13 +3926,6 @@
               <item name="bZTools" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BZTools" type="1abcf292:AndroidViewProjectNode" />
-              <item name="bZTools" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="zxing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BZTools" type="1abcf292:AndroidViewProjectNode" />
@@ -3149,14 +3933,6 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="bztools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BZTools" type="1abcf292:AndroidViewProjectNode" />
-              <item name="bZTools" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="bztools" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BZTools" type="1abcf292:AndroidViewProjectNode" />
@@ -3169,6 +3945,10 @@
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
+            <path>
+              <item name="BZTools" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -3179,8 +3959,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../All_My_Codes/android_all_projs/FaceDetect" />
     <property name="device.picker.selection" value="4c71e5c0" />
   </component>
   <component name="RunDashboard">
@@ -3358,18 +4138,18 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30151516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25151515" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13376835" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4937833" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22424242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.081566066" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20151515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12561175" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23257576" sideWeight="0.4866785" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1560606" sideWeight="0.4866785" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5133215" order="-1" side_tool="true" content_ui="tabs" />
@@ -3410,17 +4190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="201" column="6" lean-forward="true" selection-start-line="201" selection-start-column="6" selection-end-line="201" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/content/ContextWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2988">
@@ -3432,7 +4201,7 @@
     <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/net/ResultEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="54" column="1" lean-forward="true" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <caret line="54" column="1" lean-forward="false" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -3450,25 +4219,128 @@
         <state relative-caret-position="-2568">
           <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1558#1559#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1558#1559#0" expanded="false" />
+            <element signature="e#1594#1595#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Android/Sdk/platforms/android-24/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="810" column="22" lean-forward="false" selection-start-line="810" selection-start-column="22" selection-end-line="810" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/mining/app/zxing/MipcaActivityCapture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="366" column="38" lean-forward="true" selection-start-line="366" selection-start-column="38" selection-end-line="366" selection-end-column="38" />
+        <state relative-caret-position="564">
+          <caret line="366" column="38" lean-forward="false" selection-start-line="366" selection-start-column="38" selection-end-line="366" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#767#785#0" expanded="true" />
+            <element signature="e#1261#1279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="47" lean-forward="false" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/ActivityCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="323" column="5" lean-forward="true" selection-start-line="323" selection-start-column="5" selection-end-line="323" selection-end-column="5" />
+        <state relative-caret-position="144">
+          <caret line="161" column="29" lean-forward="false" selection-start-line="161" selection-start-column="29" selection-end-line="161" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#9256#9271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

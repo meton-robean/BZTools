@@ -20,27 +20,20 @@ import android.widget.Toast;
 import com.mining.app.zxing.MipcaActivityCapture;
 import com.yeah.bztools.net.NetInterface;
 import com.yeah.bztools.net.ResultEntity;
+import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity extends Activity implements OnClickListener{
+public class MainActivity extends BaseActivity implements OnClickListener{
 	public static final String SCAN_GATEWAY_FLAG_CODE = "1";
 	public static final String SCAN_DEVICE_FLAG_CODE = "2";
 	public static final int SCAN_GATEWAY_CODE = 0;
 	public static final int SCAN_DEVICE_CODE = 1;
-	
-	private EditText password;
-	private EditText appid;
-	private EditText secret;
-	private EditText userid;
-	private EditText username;
-	private EditText code;
-	private EditText token;
+
 	private EditText deviceid;
 	private EditText gwid;
 	private EditText gwname;
 	private EditText roomnu;
 	
-	String username_text;
-	String password_text;
+
 	String appid_text;
 	String secret_text;
 	String userid_text;
@@ -57,22 +50,21 @@ public class MainActivity extends Activity implements OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //cmt 从登录界面获得appid secret userid
+        Intent intent_tmp=getIntent();
+        appid_text=intent_tmp.getStringExtra("appid_s");
+		secret_text=intent_tmp.getStringExtra("secret_s");
+
         initView();
     }
 
 	private void initView() 
 	{
-		password = (EditText) findViewById(R.id.et_password);
-		username = (EditText) findViewById(R.id.et_username);
-		appid = (EditText) findViewById(R.id.et_appid);
-		secret = (EditText) findViewById(R.id.et_secret);
-		userid = (EditText) findViewById(R.id.et_userid);
-		code = (EditText) findViewById(R.id.et_code);
-		token = (EditText) findViewById(R.id.et_token);
+
+
 		deviceid = (EditText) findViewById(R.id.et_deviceid);
 		gwid = (EditText) findViewById(R.id.et_gwid);
-		gwname = (EditText) findViewById(R.id.et_gwname);
-		roomnu = (EditText) findViewById(R.id.et_roomnu);
+
 		
 		llAutolayout = (LinearLayout) findViewById(R.id.ll_linear);
 		
@@ -81,10 +73,8 @@ public class MainActivity extends Activity implements OnClickListener{
 		Button submit = (Button) findViewById(R.id.btn_submit);
 		submit.setOnClickListener(this);
 		
-		Button login = (Button) findViewById(R.id.btn_login);
-		login.setOnClickListener(this);
-		Button gettoken = (Button) findViewById(R.id.btn_gettoken);
-		gettoken.setOnClickListener(this);
+
+
 		Button getroom = (Button) findViewById(R.id.btn_getroom);
 		getroom.setOnClickListener(this);
 		Button scangwid = (Button) findViewById(R.id.btn_scan_gwid);
@@ -107,33 +97,13 @@ public class MainActivity extends Activity implements OnClickListener{
 			runOnUiThread(new Runnable() {
 				@Override
 				public void run() {
-//					appid.setText("");
-//					secret.setText("");
-					userid.setText("");
-					code.setText("");
-					token.setText("");
 					roomnu.setText("");
+					deviceid.setText("");
+					gwid.setText("");
+					gwname.setText("");
 					llAutolayout.removeAllViews();
 				}
 			});
-			break;
-		case R.id.btn_login:
-			username_text = username.getText().toString().trim();
-			password_text = password.getText().toString().trim();
-			if (!TextUtils.isEmpty(username_text)&&!TextUtils.isEmpty(password_text)) {
-				login(username_text,password_text);
-			} else {
-				Toast.makeText(MainActivity.this, "输入账号和密码登录!",Toast.LENGTH_SHORT).show();
-			}
-			break;
-		case R.id.btn_gettoken:
-			appid_text = appid.getText().toString().trim();
-			secret_text = secret.getText().toString().trim();
-			if (!TextUtils.isEmpty(appid_text)&&!TextUtils.isEmpty(secret_text)) {
-				getToken(appid_text,secret_text);
-			} else {
-				Toast.makeText(MainActivity.this, "输入appid和secret登录!",Toast.LENGTH_SHORT).show();
-			}
 			break;
 
 		case R.id.btn_scan_deviceid:
@@ -151,28 +121,27 @@ public class MainActivity extends Activity implements OnClickListener{
 
 		case R.id.btn_getroom:
 			deviceid_text = deviceid.getText().toString().trim();
-			token_text = token.getText().toString().trim();
+			getToken(appid_text,secret_text);//cmt 获取token,保存于全局变量 token_text中
 			if (!TextUtils.isEmpty(deviceid_text)&&!TextUtils.isEmpty(token_text)) {
 				getRoomInfo(deviceid_text,token_text);
 			} else {
-				Toast.makeText(MainActivity.this, "设备ID和token不能为空!",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "获取房间号失败",Toast.LENGTH_SHORT).show();
 			}
 			break;
 		case R.id.btn_opendoor:
-			appid_text = appid.getText().toString().trim();
-			token_text = token.getText().toString().trim();
+			//appid_text = appid.getText().toString().trim();
+			getToken(appid_text,secret_text);
 			roomnu_text = roomnu.getText().toString().trim();
 			if (!TextUtils.isEmpty(appid_text)&&!TextUtils.isEmpty(token_text)) {
 				openDoor(token_text,appid_text,roomnu_text);
 			} else {
-				Toast.makeText(MainActivity.this, "appid_text和token不能为空!",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "开门失败",Toast.LENGTH_SHORT).show();
 			}
 			break;
 		case R.id.btn_addgateway:
 			gwid_text = gwid.getText().toString().trim();
 			gwname_text = gwname.getText().toString().trim();
-			userid_text = userid.getText().toString().trim();
-			token_text = token.getText().toString().trim();
+			getToken(appid_text,secret_text);
 			if (!TextUtils.isEmpty(deviceid_text)&&!TextUtils.isEmpty(token_text)) {
 				addGateway(gwid_text,gwname_text,userid_text,token_text);
 			} else {
@@ -183,8 +152,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			gwid_text = gwid.getText().toString().trim();
 			deviceid_text = deviceid.getText().toString().trim();
 			roomnu_text = roomnu.getText().toString().trim();
-			userid_text = userid.getText().toString().trim();
-			token_text = token.getText().toString().trim();
+			getToken(appid_text,secret_text);
 			if (!TextUtils.isEmpty(roomnu_text)&&!TextUtils.isEmpty(token_text)) {
 				bindRoom(deviceid_text,roomnu_text,userid_text,token_text,gwid_text);
 			} else {
@@ -224,33 +192,20 @@ public class MainActivity extends Activity implements OnClickListener{
     }
 	
 
-	private void login(String username, String password) {
-		new NetInterface(getApplicationContext()).login(username,password, new NetInterface.DataCallBack<ResultEntity>() {
-			@Override
-			public void onData(ResultEntity data) {
-				if(data.getCode().equals("0")){
-					code.setText(data.getCode());
-					userid.setText(data.getUserid());
-					appid.setText(data.getAppid());
-					secret.setText(data.getSecret());
-					autoViewTOLayout(data);
-				}
-				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"登录操作"), Toast.LENGTH_SHORT).show();
-			}
-			@Override
-			public void onFail(String msg) {
-				Toast.makeText(MainActivity.this, "登录失败,检查用户名密码是否正确"+msg, Toast.LENGTH_SHORT).show();
-			}
-		});
-	}
 
+    /*
+    * cmt 获取token,保存于全局变量 token_text,code_text中
+    *
+    * */
 	private void getToken(String username_text, String password_text) {
 		new NetInterface(getApplicationContext()).getToken(username_text,password_text, new NetInterface.DataCallBack<ResultEntity>() {
 			@Override
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"获取Token操作"), Toast.LENGTH_SHORT).show();
-				code.setText(data.getCode());
-				token.setText(data.getToken());
+				//code.setText(data.getCode());
+				//token.setText(data.getToken());
+				code_text=data.getCode();
+				token_text=data.getToken();
 				autoViewTOLayout(data);
 			}
 			@Override
@@ -280,7 +235,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			@Override
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"请求开门操作"), Toast.LENGTH_LONG).show();
-				code.setText(data.getCode());
+				code_text=data.getCode();
 				autoViewTOLayout(data);
 			}
 			@Override
@@ -296,7 +251,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			@Override
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"添加网关操作"), Toast.LENGTH_LONG).show();
-				code.setText(data.getCode());
+				code_text=data.getCode();
 				autoViewTOLayout(data);
 			}
 			@Override
@@ -313,7 +268,7 @@ public class MainActivity extends Activity implements OnClickListener{
 			@Override
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"绑定房间操作"), Toast.LENGTH_LONG).show();
-				code.setText(data.getCode());
+				code_text=data.getCode();
 				autoViewTOLayout(data);
 			}
 			@Override
@@ -325,7 +280,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	
 	
 	private String getMsg(String key,String operName){
-		Map<String, String> resMap = new HashMap<String, String>();
+		Map<String, String> resMap = new HashMap<String,String>();
 		resMap.put("0", operName+",成功");
 		resMap.put("10000", operName+",其他");
 		resMap.put("10001", operName+",secret 不正确");

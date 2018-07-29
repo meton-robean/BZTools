@@ -3,85 +3,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="${relativePackage}.${activityClass}" >
+	tools:context="${relativePackage}.${activityClass}"  >
     <!-- <include layout="@layout/head_two" /> -->
-
-    <EditText
-        android:id="@+id/et_username"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="航空酒店"
-        android:hint="username" />
-
-    <EditText
-        android:id="@+id/et_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="666666"
-        android:hint="password"/>
-
-    <Button
-        android:id="@+id/btn_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="登录" />
-
-	<View
-	    android:layout_height="2px"
-	    android:layout_width="match_parent"
-	    android:background="#ff0000"
-	/>
-
-    <EditText
-        android:id="@+id/et_appid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="8dddeeffbf83d067fa4f385e33f15a3f"
-        android:hint="appid" />
-
-    <EditText
-        android:id="@+id/et_secret"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ba71399e517572dbba14a1360ea86900"
-        android:hint="secret"/>
-
-    <EditText
-        android:id="@+id/et_userid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="userid"/>
-
-    <EditText
-        android:id="@+id/et_code"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="code"/>
-
-    <Button
-        android:id="@+id/btn_gettoken"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="获取Token" />
 
 	<View
 	    android:layout_height="2px" 
 	    android:layout_width="match_parent"
 	    android:background="#ff0000"
 	/>
-	
-	<EditText
-        android:id="@+id/et_token"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="token"/>
 
 	<EditText
         android:id="@+id/et_deviceid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1AAA0202030F"
-        android:hint="deviceid"/>
+        android:hint="设备mac"/>
+	<EditText
+		android:id="@+id/et_roomnu"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:hint="设备房间号"/>
 
 	<LinearLayout
 	    android:id="@+id/line_device"
@@ -103,19 +44,7 @@
 
     </LinearLayout>
 	
-	<EditText
-        android:id="@+id/et_roomnu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:hint="roomnu"/>
-	
-	<Button
-        android:id="@+id/btn_opendoor"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="请求开门" />
-    
+
 	<View  
 	    android:layout_height="2px" 
 	    android:layout_width="match_parent"
@@ -126,15 +55,13 @@
         android:id="@+id/et_gwid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="1aaa01000138"
-        android:hint="gwid"/>
+        android:hint="网关mac"/>
 	
 	<EditText
         android:id="@+id/et_gwname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="138"
-        android:hint="gwname"/>
+        android:hint="网关名称"/>
 	
 	<LinearLayout
 	    android:id="@+id/line_gateway"
@@ -163,7 +90,17 @@
         android:id="@+id/btn_bindroom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="绑定房间" />
+        android:text="绑定" />
+	<View
+		android:layout_height="2px"
+		android:layout_width="match_parent"
+		android:background="#ff0000"
+		/>
+	<Button
+		android:id="@+id/btn_opendoor"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="测试开门" />
     
 	<View  
 	    android:layout_height="2px" 
