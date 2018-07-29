@@ -135,20 +135,23 @@ public class MainActivity extends Activity implements OnClickListener{
 				Toast.makeText(MainActivity.this, "输入appid和secret登录!",Toast.LENGTH_SHORT).show();
 			}
 			break;
+
 		case R.id.btn_scan_deviceid:
+			//cmt 启动扫描二维码的界面
 			Intent intent = new Intent(this, MipcaActivityCapture.class);
             intent.putExtra("tag",SCAN_DEVICE_FLAG_CODE);
             startActivityForResult(intent,SCAN_DEVICE_CODE);
 			break;
+
 		case R.id.btn_scan_gwid:
 			Intent intent2 = new Intent(this, MipcaActivityCapture.class);
 			intent2.putExtra("tag",SCAN_GATEWAY_FLAG_CODE);
 			startActivityForResult(intent2,SCAN_GATEWAY_CODE);
 			break;
+
 		case R.id.btn_getroom:
 			deviceid_text = deviceid.getText().toString().trim();
 			token_text = token.getText().toString().trim();
-			
 			if (!TextUtils.isEmpty(deviceid_text)&&!TextUtils.isEmpty(token_text)) {
 				getRoomInfo(deviceid_text,token_text);
 			} else {
@@ -344,6 +347,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		return resMap.get(key);
 	}
 
+	//cmt 在这个view中展示对应code的对应描述
 	private void autoViewTOLayout(ResultEntity res) {
 	    llAutolayout.removeAllViews();
 	    llAutolayout.addView(autoTextView("编码:  "+res.getCode()));

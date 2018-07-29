@@ -144,6 +144,7 @@ public class NetInterface {
             	if (response != null) {
             		Gson gson = new Gson();
                     try {
+                    	//cmt 这里cls传入的是装载json信息的类实例
                     	Object data = gson.fromJson(response, cls);
                         dataCallBack.onData(data);
 					} catch (Exception e) {
@@ -174,20 +175,24 @@ public class NetInterface {
 //			}
 //		});
 //	}
-	
+
 	public void doGetRequest( Map<String, String> params,
 			 String urlname,  Class cls,
 			 DataCallBack dataCallBack) {
 		String url = urlname;
+		//cmt 拼接请求接口url
 		String mapToString = getMapToString(params);
+
 		if (!TextUtils.isEmpty(mapToString)){
 			url = url+"?"+mapToString;
 		}
 		url = url.replaceAll(" ", "%20");
 		MyGetResponseListener myGetResponseListener = new MyGetResponseListener(cls,
 				dataCallBack, params, urlname);
-		doPostRequest(new StringRequest(Request.Method.GET, url,
-				myGetResponseListener, myGetResponseListener));
+
+		//cmt StringRequest(int method, String url, Listener<String> listener, ErrorListener errorListener)
+		doPostRequest( new StringRequest(Request.Method.GET, url,
+				myGetResponseListener, myGetResponseListener) );
 	}
 
 
@@ -208,9 +213,10 @@ public class NetInterface {
 		// 给每个请求重设超时时间、重试次数
 		request.setRetryPolicy(new DefaultRetryPolicy(OUT_TIME, TIMES_OF_RETRY,
 				DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
+		//cmt 加入请求队列
 		rq.add(request);
 	}
-
+	//cmt 接口
 	public interface DataCallBack<T> {
 		public void onData(T data);
 
