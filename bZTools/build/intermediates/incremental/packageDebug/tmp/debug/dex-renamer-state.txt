@@ -1,0 +1,4 @@
+#Sun Jul 29 17:34:18 CST 2018
+base.0=/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

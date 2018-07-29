@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sun Jul 29 17:34:19 CST 2018
+1.base=/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/transforms/dexMerger/debug/0
+1.path=des.html

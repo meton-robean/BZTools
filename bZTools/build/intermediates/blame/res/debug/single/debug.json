@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_head_two.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/layout/head_two.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi_iocn_scan.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xhdpi/iocn_scan.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_activity_capture.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/layout/activity_capture.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi_mm_title_back_normal.9.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xhdpi/mm_title_back_normal.9.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi_qrcode_scan_line.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xhdpi/qrcode_scan_line.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/raw_beep.ogg.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/raw/beep.ogg"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi_button_back_white.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xxhdpi/button_back_white.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi_iocn_scan.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xxhdpi/iocn_scan.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_mm_title_back_btn.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable/mm_title_back_btn.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi_mm_title_back_focused.9.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xhdpi/mm_title_back_focused.9.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_activity_title.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/layout/activity_title.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi_mm_title_back_pressed.9.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-xhdpi/mm_title_back_pressed.9.png"
+    }
+]

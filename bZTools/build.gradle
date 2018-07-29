@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.yeah.bztools"
+        minSdkVersion 14
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile project(':androidvolleymaster')
+    compile 'com.android.support:support-v4:24.2.1'
+    compile files('libs/core.jar')
+    compile files('libs/fastjson-1.1.33-sources.jar')
+    compile files('libs/fastjson-1.1.33.jar')
+}

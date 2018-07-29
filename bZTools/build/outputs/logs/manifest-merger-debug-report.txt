@@ -1,0 +1,128 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:1-40:12
+MERGED from [:androidvolleymaster] /home/cmt/All_My_Files/Git_Repostiories/BZTools/androidvolleymaster/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/4ffc84f7b748641440074d1bccc72b13/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/53f4c53d845ca1b96538ef91b621298e/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/3d6cb1b12c1f943abe4a2a1fd953e1d3/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/8bc6497c9832bd969ad2d489c75316da/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/5c089c54a01e2262486b8ccc674016f2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/3ba82cdaa9e81574956387e6d0cb9ab7/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [:androidvolleymaster] /home/cmt/All_My_Files/Git_Repostiories/BZTools/androidvolleymaster/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:androidvolleymaster] /home/cmt/All_My_Files/Git_Repostiories/BZTools/androidvolleymaster/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/4ffc84f7b748641440074d1bccc72b13/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/4ffc84f7b748641440074d1bccc72b13/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/53f4c53d845ca1b96538ef91b621298e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/53f4c53d845ca1b96538ef91b621298e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/3d6cb1b12c1f943abe4a2a1fd953e1d3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/3d6cb1b12c1f943abe4a2a1fd953e1d3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/8bc6497c9832bd969ad2d489c75316da/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/8bc6497c9832bd969ad2d489c75316da/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/5c089c54a01e2262486b8ccc674016f2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/5c089c54a01e2262486b8ccc674016f2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/3ba82cdaa9e81574956387e6d0cb9ab7/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/3ba82cdaa9e81574956387e6d0cb9ab7/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/4ffc84f7b748641440074d1bccc72b13/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+		INJECTED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:13:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:14:5-82
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:14:22-63
+application
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:16:5-38:19
+MERGED from [:androidvolleymaster] /home/cmt/All_My_Files/Git_Repostiories/BZTools/androidvolleymaster/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+MERGED from [:androidvolleymaster] /home/cmt/All_My_Files/Git_Repostiories/BZTools/androidvolleymaster/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/4ffc84f7b748641440074d1bccc72b13/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-v4-24.2.1.aar/4ffc84f7b748641440074d1bccc72b13/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/53f4c53d845ca1b96538ef91b621298e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-fragment-24.2.1.aar/53f4c53d845ca1b96538ef91b621298e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/3d6cb1b12c1f943abe4a2a1fd953e1d3/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-media-compat-24.2.1.aar/3d6cb1b12c1f943abe4a2a1fd953e1d3/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/8bc6497c9832bd969ad2d489c75316da/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-utils-24.2.1.aar/8bc6497c9832bd969ad2d489c75316da/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/5c089c54a01e2262486b8ccc674016f2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-core-ui-24.2.1.aar/5c089c54a01e2262486b8ccc674016f2/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/3ba82cdaa9e81574956387e6d0cb9ab7/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /home/cmt/.gradle/caches/transforms-1/files-1.1/support-compat-24.2.1.aar/3ba82cdaa9e81574956387e6d0cb9ab7/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:19:9-41
+	android:resizeableActivity
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:20:9-42
+	android:icon
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:18:9-45
+	android:allowBackup
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:21:9-40
+activity#com.yeah.bztools.MainActivity
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:22:9-30:20
+	android:label
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:28:27-74
+activity#com.mining.app.zxing.MipcaActivityCapture
+ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:32:9-37:20
+	android:screenOrientation
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:35:13-49
+	android:windowSoftInputMode
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:36:13-60
+	android:configChanges
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:34:13-63
+	android:name
+		ADDED from /home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/AndroidManifest.xml:33:13-69

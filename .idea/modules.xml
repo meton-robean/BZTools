@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BZTools.iml" filepath="$PROJECT_DIR$/BZTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidvolleymaster/androidvolleymaster.iml" filepath="$PROJECT_DIR$/androidvolleymaster/androidvolleymaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bZTools/bZTools.iml" filepath="$PROJECT_DIR$/bZTools/bZTools.iml" />
+    </modules>
+  </component>
+</project>

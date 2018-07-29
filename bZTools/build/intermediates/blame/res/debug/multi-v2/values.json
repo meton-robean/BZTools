@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "26,33",
+                        "startColumns": "4,4",
+                        "startOffsets": "1177,1468",
+                        "endLines": "32,35",
+                        "endColumns": "12,12",
+                        "endOffsets": "1463,1623"
+                    }
+                },
+                {
+                    "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "58,104,157",
+                        "endColumns": "44,52,54",
+                        "endOffsets": "98,152,207"
+                    },
+                    "to": {
+                        "startLines": "23,24,25",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1024,1069,1122",
+                        "endColumns": "44,52,54",
+                        "endOffsets": "1064,1117,1172"
+                    }
+                },
+                {
+                    "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/values/ids.xml",
+                    "from": {
+                        "startLines": "36,18,19,20,21,22,23,33,24,25,26,27,28,29,37,34",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "1265,656,694,728,769,813,854,1189,898,946,978,1021,1067,1122,1322,1226",
+                        "endColumns": "56,37,33,40,43,40,43,36,47,31,42,45,54,57,43,35",
+                        "endOffsets": "1319,691,725,766,810,851,895,1223,943,975,1018,1064,1119,1177,1363,1259"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "296,355,395,431,474,520,563,609,647,697,731,776,824,881,941,987",
+                        "endColumns": "58,39,35,42,45,42,45,37,49,33,44,47,56,59,45,36",
+                        "endOffsets": "350,390,426,469,515,558,604,642,692,726,771,819,876,936,982,1019"
+                    }
+                },
+                {
+                    "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "6,5,3,4,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "221,161,59,108,264",
+                        "endColumns": "41,58,47,51,39",
+                        "endOffsets": "258,215,102,155,299"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,97,156,204,256",
+                        "endColumns": "41,58,47,51,39",
+                        "endOffsets": "92,151,199,251,291"
+                    }
+                }
+            ]
+        }
+    ]
+}
