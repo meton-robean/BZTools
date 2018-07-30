@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -20,14 +21,17 @@ import android.widget.Toast;
 import com.mining.app.zxing.MipcaActivityCapture;
 import com.yeah.bztools.net.NetInterface;
 import com.yeah.bztools.net.ResultEntity;
-import android.support.v7.app.AppCompatActivity;
 
-public class MainActivity extends BaseActivity implements OnClickListener{
+
+public class MainActivity extends Activity implements OnClickListener{
 	public static final String SCAN_GATEWAY_FLAG_CODE = "1";
 	public static final String SCAN_DEVICE_FLAG_CODE = "2";
 	public static final int SCAN_GATEWAY_CODE = 0;
 	public static final int SCAN_DEVICE_CODE = 1;
+	public static final String LOG_TAG="MainActivity";
 
+	private EditText code;
+	private EditText token;
 	private EditText deviceid;
 	private EditText gwid;
 	private EditText gwname;
@@ -54,27 +58,39 @@ public class MainActivity extends BaseActivity implements OnClickListener{
         Intent intent_tmp=getIntent();
         appid_text=intent_tmp.getStringExtra("appid_s");
 		secret_text=intent_tmp.getStringExtra("secret_s");
-
+		userid_text=intent_tmp.getStringExtra("user_s");
+		Log.d(LOG_TAG,appid_text);
+		Log.d(LOG_TAG,secret_text);
+		Log.d(LOG_TAG,userid_text);
         initView();
     }
 
 	private void initView() 
 	{
 
-
+//		password = (EditText) findViewById(R.id.et_password);
+//		username = (EditText) findViewById(R.id.et_username);
+//		appid = (EditText) findViewById(R.id.et_appid);
+//		secret = (EditText) findViewById(R.id.et_secret);
+//		userid = (EditText) findViewById(R.id.et_userid);
+//		code = (EditText) findViewById(R.id.et_code);
+//		token = (EditText) findViewById(R.id.et_token);
 		deviceid = (EditText) findViewById(R.id.et_deviceid);
 		gwid = (EditText) findViewById(R.id.et_gwid);
+		gwname = (EditText) findViewById(R.id.et_gwname);
+		roomnu = (EditText) findViewById(R.id.et_roomnu);
 
-		
 		llAutolayout = (LinearLayout) findViewById(R.id.ll_linear);
-		
+
 		Button dataClear = (Button) findViewById(R.id.btn_clear);
 		dataClear.setOnClickListener(this);
 		Button submit = (Button) findViewById(R.id.btn_submit);
 		submit.setOnClickListener(this);
-		
 
-
+//		Button login = (Button) findViewById(R.id.btn_login);
+//		login.setOnClickListener(this);
+//		Button gettoken = (Button) findViewById(R.id.btn_gettoken);
+//		gettoken.setOnClickListener(this);
 		Button getroom = (Button) findViewById(R.id.btn_getroom);
 		getroom.setOnClickListener(this);
 		Button scangwid = (Button) findViewById(R.id.btn_scan_gwid);
@@ -105,7 +121,6 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 				}
 			});
 			break;
-
 		case R.id.btn_scan_deviceid:
 			//cmt 启动扫描二维码的界面
 			Intent intent = new Intent(this, MipcaActivityCapture.class);
@@ -120,22 +135,21 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 			break;
 
 		case R.id.btn_getroom:
-			deviceid_text = deviceid.getText().toString().trim();
+			deviceid_text = deviceid.getText().toString();
 			getToken(appid_text,secret_text);//cmt 获取token,保存于全局变量 token_text中
 			if (!TextUtils.isEmpty(deviceid_text)&&!TextUtils.isEmpty(token_text)) {
 				getRoomInfo(deviceid_text,token_text);
 			} else {
-				Toast.makeText(MainActivity.this, "获取房间号失败",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "设备id参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
 			}
 			break;
 		case R.id.btn_opendoor:
-			//appid_text = appid.getText().toString().trim();
-			getToken(appid_text,secret_text);
 			roomnu_text = roomnu.getText().toString().trim();
+			getToken(appid_text,secret_text);
 			if (!TextUtils.isEmpty(appid_text)&&!TextUtils.isEmpty(token_text)) {
 				openDoor(token_text,appid_text,roomnu_text);
 			} else {
-				Toast.makeText(MainActivity.this, "开门失败",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "相关参数不能为空，或者token过期",Toast.LENGTH_SHORT).show();
 			}
 			break;
 		case R.id.btn_addgateway:
@@ -145,7 +159,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 			if (!TextUtils.isEmpty(deviceid_text)&&!TextUtils.isEmpty(token_text)) {
 				addGateway(gwid_text,gwname_text,userid_text,token_text);
 			} else {
-				Toast.makeText(MainActivity.this, "(添加网关)指定参数不能为空！",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "(添加网关)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
 			}
 			break;
 		case R.id.btn_bindroom:
@@ -155,8 +169,9 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 			getToken(appid_text,secret_text);
 			if (!TextUtils.isEmpty(roomnu_text)&&!TextUtils.isEmpty(token_text)) {
 				bindRoom(deviceid_text,roomnu_text,userid_text,token_text,gwid_text);
+				Log.d(LOG_TAG,"in case btn_bindroom");
 			} else {
-				Toast.makeText(MainActivity.this, "(绑定房间)指定参数不能为空！",Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "(绑定房间)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
 			}
 			break;
 		case R.id.btn_submit:
@@ -177,6 +192,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
                     //二维码扫描的返回结果
                     if (data !=null) {
                     	String gwidStr = data.getStringExtra("result");
+                    	gwid.setText("");
                 		gwid.setText(gwidStr);
                     }
                     break;
@@ -184,6 +200,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
                 	//二维码扫描的返回结果
                 	if (data !=null) {
                 		String deviceidStr = data.getStringExtra("result");
+                		deviceid.setText("");
                 		deviceid.setText(deviceidStr);
                 	}
                 	break;
@@ -206,11 +223,11 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 				//token.setText(data.getToken());
 				code_text=data.getCode();
 				token_text=data.getToken();
-				autoViewTOLayout(data);
+				//autoViewTOLayout(data);
 			}
 			@Override
 			public void onFail(String msg) {
-				Toast.makeText(MainActivity.this, "获取Token失败"+msg, Toast.LENGTH_SHORT).show();
+				Toast.makeText(MainActivity.this, "获取Token失败,再试一次"+msg, Toast.LENGTH_SHORT).show();
 			}
 		});
 	}
@@ -221,7 +238,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"获取房间信息操作"), Toast.LENGTH_LONG).show();
 				roomnu.setText(data.getRoomnu());
-				autoViewTOLayout(data);
+				autoViewTOLayout(data,"获取房间信息");
 			}
 			@Override
 			public void onFail(String msg) {
@@ -236,7 +253,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"请求开门操作"), Toast.LENGTH_LONG).show();
 				code_text=data.getCode();
-				autoViewTOLayout(data);
+				autoViewTOLayout(data,"开门操作");
 			}
 			@Override
 			public void onFail(String msg) {
@@ -252,7 +269,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"添加网关操作"), Toast.LENGTH_LONG).show();
 				code_text=data.getCode();
-				autoViewTOLayout(data);
+				autoViewTOLayout(data,"添加网关");
 			}
 			@Override
 			public void onFail(String msg) {
@@ -269,7 +286,7 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 			public void onData(ResultEntity data) {
 				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"绑定房间操作"), Toast.LENGTH_LONG).show();
 				code_text=data.getCode();
-				autoViewTOLayout(data);
+				autoViewTOLayout(data,"绑定网关、设备、房间,");
 			}
 			@Override
 			public void onFail(String msg) {
@@ -303,10 +320,10 @@ public class MainActivity extends BaseActivity implements OnClickListener{
 	}
 
 	//cmt 在这个view中展示对应code的对应描述
-	private void autoViewTOLayout(ResultEntity res) {
+	private void autoViewTOLayout(ResultEntity res,String operName) {
 	    llAutolayout.removeAllViews();
 	    llAutolayout.addView(autoTextView("编码:  "+res.getCode()));
-	    llAutolayout.addView(autoTextView("描述:  "+getMsg(res.getCode(), "")));
+	    llAutolayout.addView(autoTextView("描述:  "+getMsg(res.getCode(), operName)));
 	}
 	
 	 private TextView autoTextView(String str) {

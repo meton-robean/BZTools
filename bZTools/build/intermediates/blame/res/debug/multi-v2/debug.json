@@ -1,21 +1,6 @@
 {
     "logs": [
         {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-te-rIN_values-te-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-te-rIN/values-te-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,277,400,509,620,710,815,940,1022,1104,1189,1302,1410,1510,1621,1723,1840,1967,2068,2151",
-                        "endColumns": "113,107,122,108,110,89,104,124,81,81,84,112,107,99,110,101,116,126,100,82,100",
-                        "endOffsets": "164,272,395,504,615,705,810,935,1017,1099,1184,1297,1405,1505,1616,1718,1835,1962,2063,2146,2247"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat",
             "map": [
                 {
@@ -31,16 +16,16 @@
             ]
         },
         {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat",
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-te-rIN_values-te-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ro/values-ro.xml",
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-te-rIN/values-te-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,176,284,407,511,624,712,824,945,1030,1112,1195,1307,1420,1520,1634,1739,1845,1966,2069,2152",
-                        "endColumns": "120,107,122,103,112,87,111,120,84,81,82,111,112,99,113,104,105,120,102,82,100",
-                        "endOffsets": "171,279,402,506,619,707,819,940,1025,1107,1190,1302,1415,1515,1629,1734,1840,1961,2064,2147,2248"
+                        "startOffsets": "55,169,277,400,509,620,710,815,940,1022,1104,1189,1302,1410,1510,1621,1723,1840,1967,2068,2151",
+                        "endColumns": "113,107,122,108,110,89,104,124,81,81,84,112,107,99,110,101,116,126,100,82,100",
+                        "endOffsets": "164,272,395,504,615,705,810,935,1017,1099,1184,1297,1405,1505,1616,1718,1835,1962,2063,2146,2247"
                     }
                 }
             ]
@@ -56,6 +41,21 @@
                         "startOffsets": "55,114,185,256,326,396,464,532,636",
                         "endColumns": "58,70,70,69,69,67,67,103,115",
                         "endOffsets": "109,180,251,321,391,459,527,631,747"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ro/values-ro.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,176,284,407,511,624,712,824,945,1030,1112,1195,1307,1420,1520,1634,1739,1845,1966,2069,2152",
+                        "endColumns": "120,107,122,103,112,87,111,120,84,81,82,111,112,99,113,104,105,120,102,82,100",
+                        "endOffsets": "171,279,402,506,619,707,819,940,1025,1107,1190,1302,1415,1515,1629,1734,1840,1961,2064,2147,2248"
                     }
                 }
             ]
@@ -91,6 +91,21 @@
             ]
         },
         {
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ta-rIN_values-ta-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ta-rIN/values-ta-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,169,277,400,505,620,709,816,942,1023,1103,1185,1287,1391,1488,1598,1700,1807,1926,2026,2106",
+                        "endColumns": "113,107,122,104,114,88,106,125,80,79,81,101,103,96,109,101,106,118,99,79,100",
+                        "endOffsets": "164,272,395,500,615,704,811,937,1018,1098,1180,1282,1386,1483,1593,1695,1802,1921,2021,2101,2202"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat",
             "map": [
                 {
@@ -102,21 +117,6 @@
                         "endLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,16,18,19,20,21,23,25,26,27,28,29,31,33,35,37,39,41,42,47,49,51,52,53,55,57,58,59,60,61,62,106,109,153,156,159,161,163,165,168,170,173,174,175,178,179,180,181,182,183,186,187,189,191,193,195,199,201,202,203,204,206,210,212,214,215,216,217,218,220,230,240,250,251,252",
                         "endColumns": "90,102,102,104,106,108,108,108,108,108,106,102,118,12,12,104,120,100,12,12,102,118,106,102,12,12,12,12,12,12,118,12,12,12,111,146,12,12,74,88,86,100,102,12,12,12,12,12,12,12,12,12,12,12,88,110,12,100,94,122,128,116,12,98,12,12,12,12,12,12,92,110,55,12,12,12,12,94,90,90,116,12,12,12,12,56,57",
                         "endOffsets": "141,244,347,452,559,668,777,886,995,1104,1211,1314,1433,1588,1743,1848,1969,2070,2217,2358,2461,2580,2687,2790,2945,3116,3265,3430,3587,3738,3857,4229,4378,4527,4639,4786,4939,5086,5161,5250,5337,5438,5541,8609,8795,11875,12073,12273,12396,12519,12632,12815,12946,13147,13236,13347,13580,13681,13776,13899,14028,14145,14322,14421,14556,14699,14834,14953,15154,15273,15366,15477,15533,15640,15835,15946,16079,16174,16265,16356,16473,16612,17125,17650,18330,18387,18445"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ta-rIN_values-ta-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ta-rIN/values-ta-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,277,400,505,620,709,816,942,1023,1103,1185,1287,1391,1488,1598,1700,1807,1926,2026,2106",
-                        "endColumns": "113,107,122,104,114,88,106,125,80,79,81,101,103,96,109,101,106,118,99,79,100",
-                        "endOffsets": "164,272,395,500,615,704,811,937,1018,1098,1180,1282,1386,1483,1593,1695,1802,1921,2021,2101,2202"
                     }
                 }
             ]
@@ -138,16 +138,16 @@
             ]
         },
         {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ur-rPK_values-ur-rPK.arsc.flat",
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ur-rPK/values-ur-rPK.xml",
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ml-rIN/values-ml-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,165,273,396,502,611,697,801,921,997,1073,1158,1266,1375,1477,1588,1688,1796,1925,2023,2103",
-                        "endColumns": "109,107,122,105,108,85,103,119,75,75,84,107,108,101,110,99,107,128,97,79,102",
-                        "endOffsets": "160,268,391,497,606,692,796,916,992,1068,1153,1261,1370,1472,1583,1683,1791,1920,2018,2098,2201"
+                        "startOffsets": "55,174,282,405,523,638,731,836,968,1045,1121,1203,1314,1420,1518,1632,1732,1843,1971,2072,2154",
+                        "endColumns": "118,107,122,117,114,92,104,131,76,75,81,110,105,97,113,99,110,127,100,81,100",
+                        "endOffsets": "169,277,400,518,633,726,831,963,1040,1116,1198,1309,1415,1513,1627,1727,1838,1966,2067,2149,2250"
                     }
                 }
             ]
@@ -168,16 +168,16 @@
             ]
         },
         {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ml-rIN_values-ml-rIN.arsc.flat",
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-ur-rPK_values-ur-rPK.arsc.flat",
             "map": [
                 {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ml-rIN/values-ml-rIN.xml",
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-ur-rPK/values-ur-rPK.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,174,282,405,523,638,731,836,968,1045,1121,1203,1314,1420,1518,1632,1732,1843,1971,2072,2154",
-                        "endColumns": "118,107,122,117,114,92,104,131,76,75,81,110,105,97,113,99,110,127,100,81,100",
-                        "endOffsets": "169,277,400,518,633,726,831,963,1040,1116,1198,1309,1415,1513,1627,1727,1838,1966,2067,2149,2250"
+                        "startOffsets": "55,165,273,396,502,611,697,801,921,997,1073,1158,1266,1375,1477,1588,1688,1796,1925,2023,2103",
+                        "endColumns": "109,107,122,105,108,85,103,119,75,75,84,107,108,101,110,99,107,128,97,79,102",
+                        "endOffsets": "160,268,391,497,606,692,796,916,992,1068,1153,1261,1370,1472,1583,1683,1791,1920,2018,2098,2201"
                     }
                 }
             ]
@@ -333,16 +333,16 @@
             ]
         },
         {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat",
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-gu-rIN_values-gu-rIN.arsc.flat",
             "map": [
                 {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-hr/values-hr.xml",
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-gu-rIN/values-gu-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,160,268,391,488,598,684,788,907,991,1074,1160,1264,1377,1483,1588,1701,1808,1931,2028,2117",
-                        "endColumns": "104,107,122,96,109,85,103,118,83,82,85,103,112,105,104,112,106,122,96,88,100",
-                        "endOffsets": "155,263,386,483,593,679,783,902,986,1069,1155,1259,1372,1478,1583,1696,1803,1926,2023,2112,2213"
+                        "startOffsets": "55,164,272,395,499,606,693,794,917,994,1072,1152,1258,1360,1457,1566,1665,1775,1896,1999,2079",
+                        "endColumns": "108,107,122,103,106,86,100,122,76,77,79,105,101,96,108,98,109,120,102,79,100",
+                        "endOffsets": "159,267,390,494,601,688,789,912,989,1067,1147,1253,1355,1452,1561,1660,1770,1891,1994,2074,2175"
                     }
                 }
             ]
@@ -363,31 +363,16 @@
             ]
         },
         {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-gu-rIN_values-gu-rIN.arsc.flat",
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat",
             "map": [
                 {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-gu-rIN/values-gu-rIN.xml",
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,164,272,395,499,606,693,794,917,994,1072,1152,1258,1360,1457,1566,1665,1775,1896,1999,2079",
-                        "endColumns": "108,107,122,103,106,86,100,122,76,77,79,105,101,96,108,98,109,120,102,79,100",
-                        "endOffsets": "159,267,390,494,601,688,789,912,989,1067,1147,1253,1355,1452,1561,1660,1770,1891,1994,2074,2175"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-lo-rLA_values-lo-rLA.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-lo-rLA/values-lo-rLA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,158,266,389,486,593,678,783,895,972,1050,1130,1237,1334,1432,1537,1640,1744,1866,1962,2043",
-                        "endColumns": "102,107,122,96,106,84,104,111,76,77,79,106,96,97,104,102,103,121,95,80,100",
-                        "endOffsets": "153,261,384,481,588,673,778,890,967,1045,1125,1232,1329,1427,1532,1635,1739,1861,1957,2038,2139"
+                        "startOffsets": "55,160,268,391,488,598,684,788,907,991,1074,1160,1264,1377,1483,1588,1701,1808,1931,2028,2117",
+                        "endColumns": "104,107,122,96,109,85,103,118,83,82,85,103,112,105,104,112,106,122,96,88,100",
+                        "endOffsets": "155,263,386,483,593,679,783,902,986,1069,1155,1259,1372,1478,1583,1696,1803,1926,2023,2112,2213"
                     }
                 }
             ]
@@ -403,6 +388,21 @@
                         "startOffsets": "55,165,273,396,498,604,690,798,916,995,1075,1156,1262,1369,1467,1575,1681,1790,1914,2014,2095",
                         "endColumns": "109,107,122,101,105,85,107,117,78,79,80,105,106,97,107,105,108,123,99,80,100",
                         "endOffsets": "160,268,391,493,599,685,793,911,990,1070,1151,1257,1364,1462,1570,1676,1785,1909,2009,2090,2191"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-lo-rLA_values-lo-rLA.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-lo-rLA/values-lo-rLA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,158,266,389,486,593,678,783,895,972,1050,1130,1237,1334,1432,1537,1640,1744,1866,1962,2043",
+                        "endColumns": "102,107,122,96,106,84,104,111,76,77,79,106,96,97,104,102,103,121,95,80,100",
+                        "endOffsets": "153,261,384,481,588,673,778,890,967,1045,1125,1232,1329,1427,1532,1635,1739,1861,1957,2038,2139"
                     }
                 }
             ]
@@ -528,21 +528,6 @@
             ]
         },
         {
-            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-is-rIS_values-is-rIS.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-is-rIS/values-is-rIS.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,155,263,386,483,595,680,781,895,975,1055,1136,1246,1354,1452,1561,1660,1763,1881,1979,2060",
-                        "endColumns": "99,107,122,96,111,84,100,113,79,79,80,109,107,97,108,98,102,117,97,80,100",
-                        "endOffsets": "150,258,381,478,590,675,776,890,970,1050,1131,1241,1349,1447,1556,1655,1758,1876,1974,2055,2156"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
             "map": [
                 {
@@ -581,6 +566,21 @@
                         "endLines": "4",
                         "endColumns": "12",
                         "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/values-is-rIS_values-is-rIS.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/values-is-rIS/values-is-rIS.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,155,263,386,483,595,680,781,895,975,1055,1136,1246,1354,1452,1561,1660,1763,1881,1979,2060",
+                        "endColumns": "99,107,122,96,111,84,100,113,79,79,80,109,107,97,108,98,102,117,97,80,100",
+                        "endOffsets": "150,258,381,478,590,675,776,890,970,1050,1131,1241,1349,1447,1556,1655,1758,1876,1974,2055,2156"
                     }
                 }
             ]

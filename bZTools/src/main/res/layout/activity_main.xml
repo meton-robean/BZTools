@@ -6,45 +6,6 @@
 	tools:context="${relativePackage}.${activityClass}"  >
     <!-- <include layout="@layout/head_two" /> -->
 
-	<View
-	    android:layout_height="2px" 
-	    android:layout_width="match_parent"
-	    android:background="#ff0000"
-	/>
-
-	<EditText
-        android:id="@+id/et_deviceid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="设备mac"/>
-	<EditText
-		android:id="@+id/et_roomnu"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:text=""
-		android:hint="设备房间号"/>
-
-	<LinearLayout
-	    android:id="@+id/line_device"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/btn_scan_deviceid"
-            android:layout_width="195dp"
-            android:layout_height="wrap_content"
-            android:text="扫描设备" />
-
-        <Button
-            android:id="@+id/btn_getroom"
-            android:layout_width="195dp"
-            android:layout_height="wrap_content"
-            android:text="获取房间号" />
-
-    </LinearLayout>
-	
-
 	<View  
 	    android:layout_height="2px" 
 	    android:layout_width="match_parent"
@@ -79,6 +40,43 @@
 	        android:layout_height="wrap_content"
 	        android:text="添加网关" />
 	</LinearLayout>
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+
+    <EditText
+        android:id="@+id/et_deviceid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设备mac"/>
+    <EditText
+        android:id="@+id/et_roomnu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="设备房间号"/>
+
+    <LinearLayout
+        android:id="@+id/line_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_scan_deviceid"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="扫描设备" />
+
+        <Button
+            android:id="@+id/btn_getroom"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="获取房间号" />
+
+    </LinearLayout>
     
 	<View  
 	    android:layout_height="2px" 

@@ -1,5 +1,6 @@
 package com.yeah.bztools;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +15,7 @@ import com.yeah.bztools.net.ResultEntity;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LoginActivity extends BaseActivity{
+public class LoginActivity extends Activity {
 
     //String code;
     String userid;
