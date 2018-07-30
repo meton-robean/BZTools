@@ -27,11 +27,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/blame/res/debug/single/debug.json" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity$1.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity$2.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/LoginActivity.class" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$1.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$1.class" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$2.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$3.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$3.class" />
@@ -39,15 +34,7 @@
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$5.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$5.class" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$6.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity$6.class" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity.class" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/classes/debug/com/yeah/bztools/MainActivity.class" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/CXBmD+UhqYr7Qi1WNUSN9AG5BWc=" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/CXBmD+UhqYr7Qi1WNUSN9AG5BWc=" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/res/merged/debug/layout_activity_main.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity$1.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity$1.dex" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity$2.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity$2.dex" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/LoginActivity.dex" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$1.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$1.dex" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$2.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$2.dex" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$3.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$3.dex" />
@@ -56,11 +43,8 @@
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$6.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity$6.dex" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexBuilder/debug/31/com/yeah/bztools/MainActivity.dex" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/bZTools/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/bZTools/build/outputs/apk/debug/bZTools-debug.apk" afterPath="$PROJECT_DIR$/bZTools/build/outputs/apk/debug/bZTools-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java" afterPath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java" />
       <change beforePath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java" afterPath="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,16 +83,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="335" column="0" lean-forward="true" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="125" column="50" lean-forward="false" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3636#3837#0" expanded="true" />
-                <element signature="e#3836#3837#0" expanded="true" />
-                <element signature="e#10288#10303#0" expanded="true" />
+                <element signature="e#3730#4034#0" expanded="true" />
+                <element signature="e#4033#4034#0" expanded="true" />
+                <element signature="e#10656#10671#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -471,11 +455,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -486,7 +470,7 @@
       <file leaf-file-name="ActivityCollector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/ActivityCollector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
+            <state relative-caret-position="376">
               <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -3514,12 +3498,12 @@
         <option value="$PROJECT_DIR$/bZTools/build.gradle" />
         <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java" />
         <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java" />
         <option value="$PROJECT_DIR$/bZTools/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="-1" />
     <option name="width" value="1366" />
     <option name="height" value="742" />
@@ -3768,7 +3752,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1366" height="742" extended-state="7" />
+    <frame x="0" y="-1" width="1366" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3782,11 +3766,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16965742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22022839" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.4937833" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18333334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17272727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1560606" sideWeight="0.4866785" order="1" side_tool="false" content_ui="tabs" />
@@ -4206,9 +4190,9 @@
           <caret line="146" column="73" lean-forward="true" selection-start-line="146" selection-start-column="73" selection-end-line="146" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3636#3837#0" expanded="true" />
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#10288#10303#0" expanded="true" />
+            <element signature="e#3730#4034#0" expanded="true" />
+            <element signature="e#4033#4034#0" expanded="true" />
+            <element signature="e#10656#10671#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -4311,20 +4295,6 @@
         <state relative-caret-position="576">
           <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/ActivityCollector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#264#265#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4652,16 +4622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -4696,13 +4656,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="335" column="0" lean-forward="true" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="125" column="50" lean-forward="false" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3636#3837#0" expanded="true" />
-            <element signature="e#3836#3837#0" expanded="true" />
-            <element signature="e#10288#10303#0" expanded="true" />
+            <element signature="e#3730#4034#0" expanded="true" />
+            <element signature="e#4033#4034#0" expanded="true" />
+            <element signature="e#10656#10671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/ActivityCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bZTools/src/main/java/com/yeah/bztools/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

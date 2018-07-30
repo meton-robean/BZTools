@@ -62,6 +62,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		Log.d(LOG_TAG,appid_text);
 		Log.d(LOG_TAG,secret_text);
 		Log.d(LOG_TAG,userid_text);
+		getToken(appid_text,secret_text);
         initView();
     }
 
@@ -76,9 +77,11 @@ public class MainActivity extends Activity implements OnClickListener{
 //		code = (EditText) findViewById(R.id.et_code);
 //		token = (EditText) findViewById(R.id.et_token);
 		deviceid = (EditText) findViewById(R.id.et_deviceid);
+		deviceid.setEnabled(false);
 		gwid = (EditText) findViewById(R.id.et_gwid);
 		gwname = (EditText) findViewById(R.id.et_gwname);
 		roomnu = (EditText) findViewById(R.id.et_roomnu);
+		roomnu.setEnabled(false);
 
 		llAutolayout = (LinearLayout) findViewById(R.id.ll_linear);
 
@@ -117,6 +120,9 @@ public class MainActivity extends Activity implements OnClickListener{
 					deviceid.setText("");
 					gwid.setText("");
 					gwname.setText("");
+					getToken(appid_text,secret_text);
+					deviceid.setEnabled(false);
+					roomnu.setEnabled(false);
 					llAutolayout.removeAllViews();
 				}
 			});
@@ -145,6 +151,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			break;
 		case R.id.btn_opendoor:
 			roomnu_text = roomnu.getText().toString().trim();
+			deviceid.setEnabled(true);
+			roomnu.setEnabled(true);
 			getToken(appid_text,secret_text);
 			if (!TextUtils.isEmpty(appid_text)&&!TextUtils.isEmpty(token_text)) {
 				openDoor(token_text,appid_text,roomnu_text);
@@ -155,8 +163,10 @@ public class MainActivity extends Activity implements OnClickListener{
 		case R.id.btn_addgateway:
 			gwid_text = gwid.getText().toString().trim();
 			gwname_text = gwname.getText().toString().trim();
+			deviceid.setEnabled(true);
+			roomnu.setEnabled(true);
 			getToken(appid_text,secret_text);
-			if (!TextUtils.isEmpty(deviceid_text)&&!TextUtils.isEmpty(token_text)) {
+			if(!TextUtils.isEmpty(gwid_text)&&!TextUtils.isEmpty(token_text)) {
 				addGateway(gwid_text,gwname_text,userid_text,token_text);
 			} else {
 				Toast.makeText(MainActivity.this, "(添加网关)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
@@ -166,6 +176,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			gwid_text = gwid.getText().toString().trim();
 			deviceid_text = deviceid.getText().toString().trim();
 			roomnu_text = roomnu.getText().toString().trim();
+			deviceid.setEnabled(false);
+			roomnu.setEnabled(false);
 			getToken(appid_text,secret_text);
 			if (!TextUtils.isEmpty(roomnu_text)&&!TextUtils.isEmpty(token_text)) {
 				bindRoom(deviceid_text,roomnu_text,userid_text,token_text,gwid_text);
@@ -322,7 +334,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	//cmt 在这个view中展示对应code的对应描述
 	private void autoViewTOLayout(ResultEntity res,String operName) {
 	    llAutolayout.removeAllViews();
-	    llAutolayout.addView(autoTextView("编码:  "+res.getCode()));
+	    llAutolayout.addView(autoTextView("返回码:  "+res.getCode()));
 	    llAutolayout.addView(autoTextView("描述:  "+getMsg(res.getCode(), operName)));
 	}
 	
