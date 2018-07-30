@@ -3,6 +3,7 @@ package com.yeah.bztools;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -18,9 +19,15 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.gson.Gson;
 import com.mining.app.zxing.MipcaActivityCapture;
 import com.yeah.bztools.net.NetInterface;
+import com.yeah.bztools.net.Result;
 import com.yeah.bztools.net.ResultEntity;
+
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 
 public class MainActivity extends Activity implements OnClickListener{
@@ -167,7 +174,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			roomnu.setEnabled(true);
 			getToken(appid_text,secret_text);
 			if(!TextUtils.isEmpty(gwid_text)&&!TextUtils.isEmpty(token_text)) {
-				addGateway(gwid_text,gwname_text,userid_text,token_text);
+				//addGateway(gwid_text,gwname_text,userid_text,token_text);
+				addGateway_v2(gwid_text,gwname_text,userid_text,token_text);
 			} else {
 				Toast.makeText(MainActivity.this, "(添加网关)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
 			}
@@ -235,6 +243,7 @@ public class MainActivity extends Activity implements OnClickListener{
 				//token.setText(data.getToken());
 				code_text=data.getCode();
 				token_text=data.getToken();
+				Log.d(LOG_TAG,data.getExpired_in());
 				//autoViewTOLayout(data);
 			}
 			@Override
@@ -290,7 +299,58 @@ public class MainActivity extends Activity implements OnClickListener{
 		});
 		
 	}
-	
+
+	//cmt 不采用异步操作，直接在MainActivity发起请求，并等待respose内容。
+	private void addGateway_v2(String gwid_text, String gwname_text,
+							String userid_text, String token_text) {
+		String ADDGATEWAY_URL="http://120.79.233.219:12347/v1/add-gateway";
+		Map<String, String> params = new HashMap<String, String>();
+		//http://120.79.233.219:12347/v1/token?add-gateway?gwid =2342352&gwname=gatewayname&userid=12&token=aaaaa
+		params.put("gwid", gwid_text);
+		params.put("gwname", gwname_text);
+		params.put("userid", userid_text);
+		params.put("token", token_text);
+		String mapToString = getMapToString(params);
+		if (!TextUtils.isEmpty(mapToString)){
+			ADDGATEWAY_URL = ADDGATEWAY_URL+"?"+mapToString;
+		}
+
+		try{
+			OkHttpClient client =new OkHttpClient();
+			Request request=new Request.Builder()
+					.url(ADDGATEWAY_URL)
+					.build();
+			Log.d(LOG_TAG,"hhheh");
+			Response response=client.newCall(request).execute();
+			String resposeData=response.body().string();
+			Gson gson = new Gson();
+			//cmt 这里cls传入的是装载json信息的类实例
+			ResultEntity data = gson.fromJson(resposeData,ResultEntity.class);
+			code_text=data.getCode();
+			Log.d(LOG_TAG,"wangg");
+			autoViewTOLayout(data,"添加网关");
+		}catch (Exception e){
+
+		}
+
+	}
+
+	private String getMapToString(Map<String, String> params) {
+		String mapString = "";
+		if (params != null && params.size()>0) {
+			Set<Map.Entry<String, String>> entrySet = params.entrySet();
+			for (Map.Entry<String, String> entry : entrySet) {
+				String key = entry.getKey();
+				String value = entry.getValue();
+				mapString =mapString + key+"="+value+"&";
+			}
+		}
+		if (!TextUtils.isEmpty(mapString)) {
+			mapString = mapString.substring(0, mapString.lastIndexOf("&"));
+		}
+		return mapString;
+	}
+
 	private void bindRoom(String deviceid_text, String roomnu_text,
 			String userid_text, String token_text,String gwid_text) {
 		new NetInterface(getApplicationContext()).bindRoom(deviceid_text,roomnu_text,userid_text,token_text,gwid_text, new NetInterface.DataCallBack<ResultEntity>() {
