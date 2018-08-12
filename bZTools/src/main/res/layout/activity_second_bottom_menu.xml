@@ -12,39 +12,6 @@
 	    android:background="#ff0000"
 	/>
 	
-	<EditText
-        android:id="@+id/et_gwid"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="网关mac"/>
-	
-	<EditText
-        android:id="@+id/et_gwname"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="网关名称"/>
-	
-	<LinearLayout
-	    android:id="@+id/line_gateway"
-	    android:layout_width="wrap_content"
-	    android:layout_height="wrap_content"
-	    android:orientation="horizontal" >
-		<Button
-	        android:id="@+id/btn_scan_gwid"
-	        android:layout_width="195dp"
-	        android:layout_height="wrap_content"
-	        android:text="扫描网关" />
-		<Button
-	        android:id="@+id/btn_addgateway"
-	        android:layout_width="195dp"
-	        android:layout_height="wrap_content"
-	        android:text="添加网关" />
-	</LinearLayout>
-    <View
-        android:layout_height="2px"
-        android:layout_width="match_parent"
-        android:background="#ff0000"
-        />
 
     <EditText
         android:id="@+id/et_deviceid"
@@ -113,22 +80,10 @@
         android:layout_height="wrap_content"
         android:text="清空输入框" />
 
-    <Button
-        android:id="@+id/btn_dbtype"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="请选择待解密码应用(默认绿清)"
-        android:visibility="gone" />
 
-    <Button
-        android:id="@+id/btn_submit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="解码" 
-        android:visibility="gone"/>
 
     <LinearLayout
-        android:id="@+id/ll_linear"
+        android:id="@+id/dd_linear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical" >

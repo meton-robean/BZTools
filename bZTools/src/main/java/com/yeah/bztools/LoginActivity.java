@@ -15,7 +15,7 @@ import com.yeah.bztools.net.ResultEntity;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LoginActivity extends Activity {
+public class LoginActivity extends BaseActivity {
 
     //String code;
     String userid;

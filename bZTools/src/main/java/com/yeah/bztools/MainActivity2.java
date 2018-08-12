@@ -1,6 +1,6 @@
 package com.yeah.bztools;
 
-import com.yeah.bztools.fragment.ConstactFatherFragment;
+import com.yeah.bztools.fragment.BindRoomFragment;
 import com.yeah.bztools.fragment.AddGatewayFragment;
 import com.yeah.bztools.fragment.SettingFragment;
 
@@ -10,12 +10,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
 
 
-public class MainActivity2 extends FragmentActivity {
+public class MainActivity2 extends BaseActivity {
     protected static final String TAG = "MainActivity2";
     private Button mSetting;
     private Button mConstact;
@@ -26,7 +25,7 @@ public class MainActivity2 extends FragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_bottombar);
+        setContentView(R.layout.activity_bottombar);
         initView();
 
     }
@@ -63,8 +62,8 @@ public class MainActivity2 extends FragmentActivity {
         public void onClick(View v) {
             FragmentManager fm=getSupportFragmentManager();
             FragmentTransaction ft=fm.beginTransaction();
-            ConstactFatherFragment constactFatherFragment=new ConstactFatherFragment();
-            ft.replace(R.id.fl_content, constactFatherFragment,MainActivity2.TAG);
+            BindRoomFragment bindRoomFragment=new BindRoomFragment();
+            ft.replace(R.id.fl_content, bindRoomFragment,MainActivity2.TAG);
             ft.commit();
             setButton(v);
 

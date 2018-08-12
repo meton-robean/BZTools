@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}"  >
+    <!-- <include layout="@layout/head_two" /> -->
+
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="当前账户:" />
+
+        <EditText
+            android:id="@+id/current_account"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="张三"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:text="当前酒店:" />
+
+        <EditText
+            android:id="@+id/hotel_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:text="测试酒店"
+             />
+    </LinearLayout>
+
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+
+    <Button
+        android:id="@+id/btn_dbtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:visibility="invisible"/>
+
+
+
+    <Button
+        android:id="@+id/btn_finish_install"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="完成本次安装" />
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出账户" />
+
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#a61c00"
+        />
+
+
+
+</LinearLayout>

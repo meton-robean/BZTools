@@ -8,9 +8,10 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 
-public class BaseActivity extends Activity {
+public class BaseActivity extends FragmentActivity {
 
     private ForceOfflineReceiver receiver;
 
@@ -24,7 +25,7 @@ public class BaseActivity extends Activity {
     protected void onResume() {
         super.onResume();
         IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction("com.example.broadcastbestpractice.FORCE_OFFLINE");
+        intentFilter.addAction("com.yeah.bztools.FORCE_OFFLINE");
         receiver = new ForceOfflineReceiver();
         registerReceiver(receiver, intentFilter);
     }
@@ -50,7 +51,7 @@ public class BaseActivity extends Activity {
         public void onReceive(final Context context, Intent intent) {
             AlertDialog.Builder builder = new AlertDialog.Builder(context);
             builder.setTitle("Warning");
-            builder.setMessage("You are forced to be offline. Please try to login again.");
+            builder.setMessage("已经退出，请重新登录.");
             builder.setCancelable(false);
             builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                 @Override

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}"  >
+    <!-- <include layout="@layout/head_two" /> -->
+
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+
+    <LinearLayout
+        android:id="@+id/line_gateway"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/et_gwid"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:hint="网关mac"/>
+        <Button
+            android:id="@+id/btn_scan_gwid"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="扫描网关" />
+    </LinearLayout>
+
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+    <EditText
+        android:id="@+id/et_gwaddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="网关安装地址"/>
+
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+    <Button
+        android:id="@+id/btn_commit_gw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加网关" />
+
+    <View
+        android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#a61c00"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/ll_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

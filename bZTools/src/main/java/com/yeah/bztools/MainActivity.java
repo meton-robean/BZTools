@@ -15,7 +15,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -23,7 +22,6 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.mining.app.zxing.MipcaActivityCapture;
 import com.yeah.bztools.net.NetInterface;
-import com.yeah.bztools.net.Result;
 import com.yeah.bztools.net.ResultEntity;
 
 import okhttp3.OkHttpClient;
@@ -61,7 +59,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second_bottom_menu);
         //cmt 从登录界面获得appid secret userid
         Intent intent_tmp=getIntent();
         appid_text=intent_tmp.getStringExtra("appid_s");
@@ -87,7 +85,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		deviceid = (EditText) findViewById(R.id.et_deviceid);
 		deviceid.setEnabled(false);
 		gwid = (EditText) findViewById(R.id.et_gwid);
-		gwname = (EditText) findViewById(R.id.et_gwname);
+		//gwname = (EditText) findViewById(R.id.et_gwname);
 		roomnu = (EditText) findViewById(R.id.et_roomnu);
 		roomnu.setEnabled(false);
 
@@ -110,8 +108,8 @@ public class MainActivity extends Activity implements OnClickListener{
 		scandeviceid.setOnClickListener(this);
 		Button opendoor = (Button) findViewById(R.id.btn_opendoor);
 		opendoor.setOnClickListener(this);
-		Button addgateway = (Button) findViewById(R.id.btn_addgateway);
-		addgateway.setOnClickListener(this);
+		//Button addgateway = (Button) findViewById(R.id.btn_addgateway);
+		//addgateway.setOnClickListener(this);
 		Button bindroom = (Button) findViewById(R.id.btn_bindroom);
 		bindroom.setOnClickListener(this);
 
@@ -169,19 +167,19 @@ public class MainActivity extends Activity implements OnClickListener{
 				Toast.makeText(MainActivity.this, "相关参数不能为空，或者token过期",Toast.LENGTH_SHORT).show();
 			}
 			break;
-		case R.id.btn_addgateway:
-			gwid_text = gwid.getText().toString().trim();
-			gwname_text = gwname.getText().toString().trim();
-			deviceid.setEnabled(true);
-			roomnu.setEnabled(true);
-			getToken(appid_text,secret_text);
-			if(!TextUtils.isEmpty(gwid_text)&&!TextUtils.isEmpty(token_text)) {
-				addGateway(gwid_text,gwname_text,userid_text,token_text);
-				//addGateway_v2(gwid_text,gwname_text,userid_text,token_text);
-			} else {
-				Toast.makeText(MainActivity.this, "(添加网关)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
-			}
-			break;
+//		case R.id.btn_addgateway:
+//			gwid_text = gwid.getText().toString().trim();
+//			gwname_text = gwname.getText().toString().trim();
+//			deviceid.setEnabled(true);
+//			roomnu.setEnabled(true);
+//			getToken(appid_text,secret_text);
+//			if(!TextUtils.isEmpty(gwid_text)&&!TextUtils.isEmpty(token_text)) {
+//				addGateway(gwid_text,gwname_text,userid_text,token_text);
+//				//addGateway_v2(gwid_text,gwname_text,userid_text,token_text);
+//			} else {
+//				Toast.makeText(MainActivity.this, "(添加网关)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
+//			}
+//			break;
 		case R.id.btn_bindroom:
 			gwid_text = gwid.getText().toString().trim();
 			deviceid_text = deviceid.getText().toString().trim();

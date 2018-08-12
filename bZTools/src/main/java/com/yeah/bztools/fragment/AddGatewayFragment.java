@@ -19,14 +19,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 import com.google.gson.Gson;
 import com.mining.app.zxing.MipcaActivityCapture;
-import com.yeah.bztools.MainActivity;
-import com.yeah.bztools.MainActivity2;
 import com.yeah.bztools.R;
 import com.yeah.bztools.net.NetInterface;
 import com.yeah.bztools.net.ResultEntity;
 
 import java.util.HashMap;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.Set;
 
@@ -42,17 +39,12 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
     private View mBaseView;
 
     public static final String SCAN_GATEWAY_FLAG_CODE = "1";
-    public static final String SCAN_DEVICE_FLAG_CODE = "2";
     public static final int SCAN_GATEWAY_CODE = 0;
-    public static final int SCAN_DEVICE_CODE = 1;
-    public static final String LOG_TAG="MainActivity";
+    public static final String LOG_TAG="AddGatewayFragment";
 
-    private EditText code;
-    private EditText token;
-    private EditText deviceid;
+
     private EditText gwid;
-    private EditText gwname;
-    private EditText roomnu;
+    private EditText gwaddr;
 
 
     String appid_text;
@@ -60,19 +52,16 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
     String userid_text;
     String code_text;
     String token_text;
-    String deviceid_text;
     String gwid_text;
     String gwname_text;
-    String roomnu_text;
 
     private LinearLayout llAutolayout ;
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         mContext = getActivity();
-        mBaseView=inflater.inflate(R.layout.activity_main, container,false);
+        mBaseView=inflater.inflate(R.layout.activity_first_bottom_menu, container,false);
         Intent intent_tmp=getActivity().getIntent();
         appid_text=intent_tmp.getStringExtra("appid_s");
         secret_text=intent_tmp.getStringExtra("secret_s");
@@ -85,43 +74,17 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
     private void initView()
     {
 
-//		password = (EditText) findViewById(R.id.et_password);
-//		username = (EditText) findViewById(R.id.et_username);
-//		appid = (EditText) findViewById(R.id.et_appid);
-//		secret = (EditText) findViewById(R.id.et_secret);
-//		userid = (EditText) findViewById(R.id.et_userid);
-//		code = (EditText) findViewById(R.id.et_code);
-//		token = (EditText) findViewById(R.id.et_token);
-        deviceid = (EditText) mBaseView.findViewById(R.id.et_deviceid);
-        deviceid.setEnabled(false);
         gwid = (EditText) mBaseView.findViewById(R.id.et_gwid);
-        gwname = (EditText) mBaseView.findViewById(R.id.et_gwname);
-        roomnu = (EditText) mBaseView.findViewById(R.id.et_roomnu);
-        roomnu.setEnabled(false);
+        gwaddr = (EditText) mBaseView.findViewById(R.id.et_gwaddr);
 
         llAutolayout = (LinearLayout) mBaseView.findViewById(R.id.ll_linear);
 
-        Button dataClear = (Button) mBaseView.findViewById(R.id.btn_clear);
-        dataClear.setOnClickListener(this);
-        Button submit = (Button) mBaseView.findViewById(R.id.btn_submit);
-        submit.setOnClickListener(this);
+        Button gwcommit = (Button) mBaseView.findViewById(R.id.btn_commit_gw);
+        gwcommit.setOnClickListener(this);
 
-//		Button login = (Button) findViewById(R.id.btn_login);
-//		login.setOnClickListener(this);
-//		Button gettoken = (Button) findViewById(R.id.btn_gettoken);
-//		gettoken.setOnClickListener(this);
-        Button getroom = (Button) mBaseView.findViewById(R.id.btn_getroom);
-        getroom.setOnClickListener(this);
         Button scangwid = (Button) mBaseView.findViewById(R.id.btn_scan_gwid);
         scangwid.setOnClickListener(this);
-        Button scandeviceid = (Button) mBaseView.findViewById(R.id.btn_scan_deviceid);
-        scandeviceid.setOnClickListener(this);
-        Button opendoor = (Button) mBaseView.findViewById(R.id.btn_opendoor);
-        opendoor.setOnClickListener(this);
-        Button addgateway = (Button) mBaseView.findViewById(R.id.btn_addgateway);
-        addgateway.setOnClickListener(this);
-        Button bindroom = (Button) mBaseView.findViewById(R.id.btn_bindroom);
-        bindroom.setOnClickListener(this);
+
 
     }
 
@@ -129,14 +92,6 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.btn_clear:
-                break;
-            case R.id.btn_scan_deviceid:
-                //cmt 启动扫描二维码的界面
-                Intent intent = new Intent(mContext, MipcaActivityCapture.class);
-                intent.putExtra("tag",SCAN_DEVICE_FLAG_CODE);
-                startActivityForResult(intent,SCAN_DEVICE_CODE);
-                break;
 
             case R.id.btn_scan_gwid:
                 Intent intent2 = new Intent(mContext, MipcaActivityCapture.class);
@@ -144,57 +99,18 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
                 startActivityForResult(intent2,SCAN_GATEWAY_CODE);
                 break;
 
-            case R.id.btn_getroom:
-                deviceid_text = deviceid.getText().toString();
-                getToken(appid_text,secret_text);//cmt 获取token,保存于全局变量 token_text中
-                if (!TextUtils.isEmpty(deviceid_text)&&!TextUtils.isEmpty(token_text)) {
-                    getRoomInfo(deviceid_text,token_text);
-                } else {
-                    Toast.makeText(mContext, "设备id参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
-                }
-                break;
-            case R.id.btn_opendoor:
-                roomnu_text = roomnu.getText().toString().trim();
-                deviceid.setEnabled(true);
-                roomnu.setEnabled(true);
-                getToken(appid_text,secret_text);
-                if (!TextUtils.isEmpty(appid_text)&&!TextUtils.isEmpty(token_text)) {
-                    openDoor(token_text,appid_text,roomnu_text);
-                } else {
-                    Toast.makeText(mContext, "相关参数不能为空，或者token过期",Toast.LENGTH_SHORT).show();
-                }
-                break;
-            case R.id.btn_addgateway:
+            case R.id.btn_commit_gw:
                 gwid_text = gwid.getText().toString().trim();
-                gwname_text = gwname.getText().toString().trim();
-                deviceid.setEnabled(true);
-                roomnu.setEnabled(true);
+                gwname_text = gwaddr.getText().toString().trim();
+                gwaddr.setEnabled(true);
                 getToken(appid_text,secret_text);
                 if(!TextUtils.isEmpty(gwid_text)&&!TextUtils.isEmpty(token_text)) {
                     addGateway(gwid_text,gwname_text,userid_text,token_text);
-                    //addGateway_v2(gwid_text,gwname_text,userid_text,token_text);
                 } else {
                     Toast.makeText(mContext, "(添加网关)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
                 }
                 break;
-            case R.id.btn_bindroom:
-                gwid_text = gwid.getText().toString().trim();
-                deviceid_text = deviceid.getText().toString().trim();
-                roomnu_text = roomnu.getText().toString().trim();
-                deviceid.setEnabled(false);
-                roomnu.setEnabled(false);
-                getToken(appid_text,secret_text);
-                if (!TextUtils.isEmpty(roomnu_text)&&!TextUtils.isEmpty(token_text)) {
-                    bindRoom(deviceid_text,roomnu_text,userid_text,token_text,gwid_text);
-                    Log.d(LOG_TAG,"in case btn_bindroom");
-                } else {
-                    Toast.makeText(mContext, "(绑定房间)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
-                }
-                break;
-            case R.id.btn_submit:
-                break;
-            case R.id.btn_dbtype:
-                break;
+
             default:
                 break;
         }
@@ -211,14 +127,6 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
                         String gwidStr = data.getStringExtra("result");
                         gwid.setText("");
                         gwid.setText(gwidStr);
-                    }
-                    break;
-                case SCAN_DEVICE_CODE:
-                    //二维码扫描的返回结果
-                    if (data !=null) {
-                        String deviceidStr = data.getStringExtra("result");
-                        deviceid.setText("");
-                        deviceid.setText(deviceidStr);
                     }
                     break;
             }
@@ -250,35 +158,6 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
         });
     }
 
-    private void getRoomInfo(String deviceid_text, String token_text) {
-        new NetInterface(mContext.getApplicationContext()).getRoomInfo(token_text,deviceid_text, new NetInterface.DataCallBack<ResultEntity>() {
-            @Override
-            public void onData(ResultEntity data) {
-                Toast.makeText(mContext, getMsg(data.getCode(),"获取房间信息操作"), Toast.LENGTH_LONG).show();
-                roomnu.setText(data.getRoomnu());
-                autoViewTOLayout(data,"获取房间信息");
-            }
-            @Override
-            public void onFail(String msg) {
-                Toast.makeText(mContext, "获取房间信息失败"+msg, Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
-
-    private void openDoor(String token_text,String appid_text,String roomnu_text) {
-        new NetInterface(mContext.getApplicationContext()).openDoor(token_text,appid_text,roomnu_text, new NetInterface.DataCallBack<ResultEntity>() {
-            @Override
-            public void onData(ResultEntity data) {
-                Toast.makeText(mContext, getMsg(data.getCode(),"请求开门操作"), Toast.LENGTH_LONG).show();
-                code_text=data.getCode();
-                autoViewTOLayout(data,"开门操作");
-            }
-            @Override
-            public void onFail(String msg) {
-                Toast.makeText(mContext, "请求开门失败"+msg, Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
 
     private void addGateway(String gwid_text, String gwname_text,
                             String userid_text, String token_text) {
@@ -297,43 +176,6 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
 
     }
 
-    //cmt 不采用异步操作，直接在MainActivity发起请求，并等待respose内容。
-    private void addGateway_v2(String gwid_text, String gwname_text,
-                               String userid_text, String token_text) {
-        String ADDGATEWAY_URL="http://120.79.233.219:22347/v1/add-gateway";
-        Map<String, String> params = new HashMap<String, String>();
-        //http://120.79.233.219:12347/v1/token?add-gateway?gwid =2342352&gwname=gatewayname&userid=12&token=aaaaa
-        params.put("gwid", gwid_text);
-        params.put("gwname", gwname_text);
-        params.put("userid", userid_text);
-        params.put("token", token_text);
-        String mapToString = getMapToString(params);
-        if (!TextUtils.isEmpty(mapToString)){
-            ADDGATEWAY_URL = ADDGATEWAY_URL+"?"+mapToString;
-        }
-
-        try{
-            OkHttpClient client =new OkHttpClient();
-            Request request=new Request.Builder()
-                    .url(ADDGATEWAY_URL)
-                    .build();
-            Log.d(LOG_TAG,"hhheh1");
-            Response response=client.newCall(request).execute();
-            Log.d(LOG_TAG,"hhheh");
-            String resposeData=response.body().string();
-
-            Gson gson = new Gson();
-
-            //cmt 这里cls传入的是装载json信息的类实例
-            ResultEntity data = gson.fromJson(resposeData, ResultEntity.class);
-            code_text=data.getCode();
-            Log.d(LOG_TAG,"wangg");
-            autoViewTOLayout(data,"添加网关");
-        }catch (Exception e){
-
-        }
-
-    }
 
     private String getMapToString(Map<String, String> params) {
         String mapString = "";
@@ -349,22 +191,6 @@ public class AddGatewayFragment extends Fragment implements View.OnClickListener
             mapString = mapString.substring(0, mapString.lastIndexOf("&"));
         }
         return mapString;
-    }
-
-    private void bindRoom(String deviceid_text, String roomnu_text,
-                          String userid_text, String token_text,String gwid_text) {
-        new NetInterface(mContext.getApplicationContext()).bindRoom(deviceid_text,roomnu_text,userid_text,token_text,gwid_text, new NetInterface.DataCallBack<ResultEntity>() {
-            @Override
-            public void onData(ResultEntity data) {
-                Toast.makeText(mContext, getMsg(data.getCode(),"绑定房间操作"), Toast.LENGTH_LONG).show();
-                code_text=data.getCode();
-                autoViewTOLayout(data,"绑定网关、设备、房间,");
-            }
-            @Override
-            public void onFail(String msg) {
-                Toast.makeText(mContext, "获取Token失败"+msg, Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
 
