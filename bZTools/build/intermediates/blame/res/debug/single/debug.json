@@ -4,12 +4,12 @@
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
-        "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
-    },
-    {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
+        "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat",
@@ -46,6 +46,10 @@
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_plugin_normal_bak.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_plugin_normal_bak.png"
     },
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -98,6 +102,10 @@
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_plugin_normal.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_plugin_normal.png"
     },
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -324,6 +332,14 @@
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_conversation_normal.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_conversation_normal.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_bar_constact.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable/bar_constact.xml"
+    },
+    {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/color/abc_tint_seek_thumb.xml"
     },
@@ -398,6 +414,10 @@
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_contact_normal.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_contact_normal.png"
     },
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -528,6 +548,10 @@
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_plugin_selected_bak.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_plugin_selected_bak.png"
+    },
+    {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -656,6 +680,10 @@
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_setup_selected.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_setup_selected.png"
+    },
+    {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -776,6 +804,10 @@
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_conversation_selected.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_conversation_selected.png"
+    },
+    {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/anim/abc_fade_in.xml"
     },
@@ -810,6 +842,10 @@
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_activity_main_bottombar.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/layout/activity_main_bottombar.xml"
     },
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -944,6 +980,10 @@
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_plugin_selected.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_plugin_selected.png"
+    },
+    {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -1026,6 +1066,10 @@
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_mm_title_back_btn.xml.flat",
         "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable/mm_title_back_btn.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_contact_selected.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_contact_selected.png"
     },
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -1316,6 +1360,10 @@
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/color/abc_tint_switch_thumb.xml"
     },
     {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_bar_news.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable/bar_news.xml"
+    },
+    {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/layout/select_dialog_item_material.xml"
     },
@@ -1370,6 +1418,10 @@
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-hdpi_skin_tab_icon_setup_normal.png.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable-hdpi/skin_tab_icon_setup_normal.png"
     },
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -1442,5 +1494,9 @@
     {
         "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
         "source": "/home/cmt/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.2.1.aar/3709865622a365868ec2ef7d01b276b6/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/build/intermediates/res/merged/debug/drawable_bar_setting.xml.flat",
+        "source": "/home/cmt/All_My_Files/Git_Repostiories/BZTools/bZTools/src/main/res/drawable/bar_setting.xml"
     }
 ]

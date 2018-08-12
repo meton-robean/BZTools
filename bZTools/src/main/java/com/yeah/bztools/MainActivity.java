@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -43,7 +44,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	private EditText gwid;
 	private EditText gwname;
 	private EditText roomnu;
-	
+
 
 	String appid_text;
 	String secret_text;
@@ -113,6 +114,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		addgateway.setOnClickListener(this);
 		Button bindroom = (Button) findViewById(R.id.btn_bindroom);
 		bindroom.setOnClickListener(this);
+
 	}
 
 
@@ -174,8 +176,8 @@ public class MainActivity extends Activity implements OnClickListener{
 			roomnu.setEnabled(true);
 			getToken(appid_text,secret_text);
 			if(!TextUtils.isEmpty(gwid_text)&&!TextUtils.isEmpty(token_text)) {
-				//addGateway(gwid_text,gwname_text,userid_text,token_text);
-				addGateway_v2(gwid_text,gwname_text,userid_text,token_text);
+				addGateway(gwid_text,gwname_text,userid_text,token_text);
+				//addGateway_v2(gwid_text,gwname_text,userid_text,token_text);
 			} else {
 				Toast.makeText(MainActivity.this, "(添加网关)指定参数不能为空,或者token过期",Toast.LENGTH_SHORT).show();
 			}
@@ -238,12 +240,12 @@ public class MainActivity extends Activity implements OnClickListener{
 		new NetInterface(getApplicationContext()).getToken(username_text,password_text, new NetInterface.DataCallBack<ResultEntity>() {
 			@Override
 			public void onData(ResultEntity data) {
-				Toast.makeText(MainActivity.this, getMsg(data.getCode(),"获取Token操作"), Toast.LENGTH_SHORT).show();
+				//Toast.makeText(MainActivity.this, getMsg(data.getCode(),"获取Token操作"), Toast.LENGTH_SHORT).show();
 				//code.setText(data.getCode());
 				//token.setText(data.getToken());
 				code_text=data.getCode();
 				token_text=data.getToken();
-				Log.d(LOG_TAG,data.getExpired_in());
+				//Log.d(LOG_TAG,data.getExpired_in());
 				//autoViewTOLayout(data);
 			}
 			@Override
@@ -303,7 +305,7 @@ public class MainActivity extends Activity implements OnClickListener{
 	//cmt 不采用异步操作，直接在MainActivity发起请求，并等待respose内容。
 	private void addGateway_v2(String gwid_text, String gwname_text,
 							String userid_text, String token_text) {
-		String ADDGATEWAY_URL="http://120.79.233.219:12347/v1/add-gateway";
+		String ADDGATEWAY_URL="http://120.79.233.219:22347/v1/add-gateway";
 		Map<String, String> params = new HashMap<String, String>();
 		//http://120.79.233.219:12347/v1/token?add-gateway?gwid =2342352&gwname=gatewayname&userid=12&token=aaaaa
 		params.put("gwid", gwid_text);
@@ -320,12 +322,15 @@ public class MainActivity extends Activity implements OnClickListener{
 			Request request=new Request.Builder()
 					.url(ADDGATEWAY_URL)
 					.build();
-			Log.d(LOG_TAG,"hhheh");
+			Log.d(LOG_TAG,"hhheh1");
 			Response response=client.newCall(request).execute();
+			Log.d(LOG_TAG,"hhheh");
 			String resposeData=response.body().string();
+
 			Gson gson = new Gson();
+
 			//cmt 这里cls传入的是装载json信息的类实例
-			ResultEntity data = gson.fromJson(resposeData,ResultEntity.class);
+			ResultEntity data = gson.fromJson(resposeData, ResultEntity.class);
 			code_text=data.getCode();
 			Log.d(LOG_TAG,"wangg");
 			autoViewTOLayout(data,"添加网关");

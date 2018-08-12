@@ -61,7 +61,7 @@ public class LoginActivity extends Activity {
                     Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
 
                     //cmt 密码正确进入MainActivity
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, MainActivity2.class);
                     //intent.putExtra("code_s",code);
                     intent.putExtra("user_s",userid);
                     intent.putExtra("appid_s",appid);

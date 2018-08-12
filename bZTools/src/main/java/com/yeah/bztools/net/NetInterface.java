@@ -26,12 +26,12 @@ import com.yeah.bztools.net.NetInterface.DataCallBack;
 
 public class NetInterface {
 	private final Context mContext;
-	public final static String LOGIN_URL = "http://120.79.233.219:12347/v1/login";
-	public final static String GETTOKEN_URL = "http://120.79.233.219:12347/v1/token";
-	public final static String GETROOM_URL = "http://120.79.233.219:12347/v1/get-roominfo";
-	public final static String OPENDOOR_URL = "http://120.79.233.219:12347/v1/open-door";
-	public final static String ADDGATEWAY_URL = "http://120.79.233.219:12347/v1/add-gateway";
-	public final static String BINDROOM_URL = "http://120.79.233.219:12347/v1/bind-room";
+	public final static String LOGIN_URL = "http://120.79.233.219:22347/v1/login";
+	public final static String GETTOKEN_URL = "http://120.79.233.219:22347/v1/token";
+	public final static String GETROOM_URL = "http://120.79.233.219:22347/v1/get-roominfo";
+	public final static String OPENDOOR_URL = "http://120.79.233.219:22347/v1/open-door";
+	public final static String ADDGATEWAY_URL = "http://120.79.233.219:22347/v1/add-gateway";
+	public final static String BINDROOM_URL = "http://120.79.233.219:22347/v1/bind-room";
 	private final RequestQueue rq;
 	
 	public NetInterface(Context mContext) {
@@ -47,8 +47,7 @@ public class NetInterface {
 
 	private ProgressDialog progressDialog;
 
-	private class MyResponseListener implements Response.Listener<String>,
-			Response.ErrorListener {
+	private class MyResponseListener implements Response.Listener<String>, Response.ErrorListener {
 		private final Class cls;
 		private final DataCallBack dataCallBack;
 		private final Map<String, String> params;
@@ -216,13 +215,16 @@ public class NetInterface {
 		//cmt 加入请求队列
 		rq.add(request);
 	}
+
+
 	//cmt 接口
 	public interface DataCallBack<T> {
 		public void onData(T data);
 
 		public void onFail(String msg);
 	}
-	
+
+
 	private String getMapToString(Map<String, String> params) {
     	String mapString = "";
     	if (params != null && params.size()>0) {

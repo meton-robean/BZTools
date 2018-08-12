@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
-            android:text="测试酒店"
+            android:text="开发"
             />
     </LinearLayout>
 
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="center_vertical"
-            android:text="csjd2018"
+            android:text="666666"
             android:inputType="textPassword" />
     </LinearLayout>
 

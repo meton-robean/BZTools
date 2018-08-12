@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/buttom_bar_group"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout style="@style/ButtomBar" >
+
+            <Button
+                android:id="@+id/buttom_news"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ButtomBarImgBtn"
+                android:text="添加网关" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar" >
+
+            <Button
+                android:id="@+id/buttom_constact"
+                style="@style/ButtomBarImgBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="绑定房间"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/ButtomBar" >
+
+            <Button
+                android:id="@+id/buttom_setting"
+                style="@style/ButtomBarImgBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="我的设置"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/buttom_bar_group"
+        android:background="@color/devide_line" />
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line" />
+
+</RelativeLayout>
