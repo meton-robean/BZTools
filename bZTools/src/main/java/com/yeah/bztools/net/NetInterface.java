@@ -26,12 +26,12 @@ import com.yeah.bztools.net.NetInterface.DataCallBack;
 
 public class NetInterface {
 	private final Context mContext;
-	public final static String LOGIN_URL = "http://120.79.233.219:12347/v1/login";
-	public final static String GETTOKEN_URL = "http://120.79.233.219:12347/v1/token";
-	public final static String GETROOM_URL = "http://120.79.233.219:12347/v1/get-roominfo";
-	public final static String OPENDOOR_URL = "http://120.79.233.219:12347/v1/open-door";
-	public final static String ADDGATEWAY_URL = "http://120.79.233.219:12347/v1/add-gateway";
-	public final static String BINDROOM_URL = "http://120.79.233.219:12347/v1/bind-room";
+	public final static String LOGIN_URL = "http://120.79.233.219:22347/v1/login";
+	public final static String GETTOKEN_URL = "http://120.79.233.219:22347/v1/token";
+	public final static String GETROOM_URL = "http://120.79.233.219:22347/v1/get-roominfo";
+	public final static String OPENDOOR_URL = "http://120.79.233.219:22347/v1/open-door";
+	public final static String ADDGATEWAY_URL = "http://120.79.233.219:22347/v1/add-gateway";
+	public final static String BINDROOM_URL = "http://120.79.233.219:22347/v1/bind-room";
 	private final RequestQueue rq;
 	
 	public NetInterface(Context mContext) {
@@ -275,11 +275,13 @@ public class NetInterface {
 		Map<String, String> params = new HashMap<String, String>();
 		//http://120.79.233.219:12347/v1/open-door?roomnu=1001&appid=8dddeeffbf83d067fa4f385e33f15a3f
 		//&method=1&token=bd65d5b49d432e88c3109dbce09a4a89ff4ec5c11ccea2f26f4a70cfb8296fd9"
-
+		String requestid =String.valueOf( System.currentTimeMillis() );
 		params.put("roomnu", roomnu_text);
     	params.put("appid", appid_text);
     	params.put("method", "1");
     	params.put("token", token_text);
+    	params.put("requestid", requestid);
+
     	doGetRequest(params, OPENDOOR_URL, ResultEntity.class, dataCallBack);
 	}
 
